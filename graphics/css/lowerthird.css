@@ -1,0 +1,86 @@
+.l3-base{
+    margin: 0px;
+    position: absolute;
+    background-color: rgba(62, 62, 62, 0.6);
+    color: white;
+    top: 858px;
+    left: 30px;
+    height: 184px;
+    font-size: 56px;
+    width: 1860px;
+}
+
+.l3-color-1{
+    color: #EC6F2B;
+}
+
+.l3-color-2{
+    color:#F5E5C1;
+}
+
+
+.matchInfoClass{
+    position: absolute;
+    font-size: 52px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 976px;
+    left: 43px;
+}
+
+.orgName{
+    position: absolute;
+    left: 43px;
+    top: 868px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 43px;
+    color: #FF0000;
+}
+
+.mapsListClass{
+    position: absolute;
+    right:35px;
+    top: 868px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFFF00;
+    background-color: black;
+    text-align: right;
+    font-size: 34px;
+}
+
+/*CASTER AND PRODUCER BOX RULES*/
+.casterName1{
+    position: absolute;
+    top: 826px;
+    left: 1496px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #3E3E3E;
+    width: 128px;
+    height: 25px;
+    color: red;
+    text-align: center;
+}
+.casterName2{
+    position: absolute;
+    top: 826px;
+    left: 1629px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #3E3E3E;
+    width: 128px;
+    height: 25px;
+    color: red;
+    text-align: center;
+}
+.producerName{
+    position: absolute;
+    top: 826px;
+    left: 1762px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #3E3E3E;
+    width: 128px;
+    height: 25px;
+    color: red;
+    text-align: center;
+}

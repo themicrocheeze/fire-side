@@ -1,0 +1,43 @@
+{
+  "name": "fire-side",
+  "version": "0.0.0",
+  "description": "An Overlay Package for Fireside casts",
+  "homepage": "asdfasd",
+  "author": {
+    "name": "Themicrocheeze",
+    "email": "themicrocheez@gmail.com",
+    "url": "themicrocheeze.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "fire-side",
+        "title": "Fire Side",
+        "width": 4,
+        "file": "fire-side.html",
+        "workspace": "Fire Side Casts",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "masterOverlay.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "private": true
+}
