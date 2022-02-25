@@ -10,8 +10,8 @@ const producerInfoRep = nodecg.Replicant('producerInfo');
 
 const matchupinfoRep = nodecg.Replicant('matchupinfo');
 
-//const team1InfoRep = nodecg.Replicant('team1Info');
-//const team2InfoRep = nodecg.Replicant('team2Info');
+const team1InfoRep = nodecg.Replicant('team1Info');
+const team2InfoRep = nodecg.Replicant('team2Info');
 
 //Declares the Element ID's as variables
 
@@ -25,12 +25,24 @@ const caster1InfoEl = document.getElementById('casterNameVar1');
 const caster2InfoEl = document.getElementById('casterNameVar2');
 const producerInfoEl = document.getElementById('producerNameVar');
 
-
+const team1NameEl = document.getElementById('team1name');
+const team2NameEl = document.getElementById('team2name');
 
 
 const matchupinfoEL = document.getElementById('matchUPVAR');
 
 //Update functions
+
+
+team1InfoRep.on('change', (newVal) =>{
+    team1NameEl.innerHTML = newVal;
+})
+
+team2InfoRep.on('change', (newVal) =>{
+    team2NameEl.innerHTML = newVal;
+})
+
+
 castingOrgRep.on('change', (newVal) => {
 	castingOrgEl.innerHTML = newVal;
 })
