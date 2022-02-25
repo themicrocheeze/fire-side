@@ -2,6 +2,13 @@
 const team1scoreRep = nodecg.Replicant('team1score', {defaultValue: 0});
 const team2scoreRep = nodecg.Replicant('team2score', {defaultValue: 0});
 
+//flavor text
+const underScoreTextRep = nodecg.Replicant('underScoreText', {defaultValue: "Hello"});
+
+function setflavor(){
+    underScoreTextRep.value = document.getElementById('underScoreflavor').value;
+}
+
 
 //Score Reseters for both maps and series
 function resetScoreboard(){

@@ -3,12 +3,13 @@
     background-color: black;
     color: white;
     position: absolute;
-    left: 444px;
+    left: 445px;
     top: 0px;
     width: 360px;
     height: 56px;
     font-size: 52px;
     text-align: center;
+    margin: none;
 }
 .team2class{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -53,9 +54,9 @@
     background-color: white;
     text-align: center;
     position: absolute;
-    width: 310px;
+    width: 309px;
     height: 34px;
-    left: 804px;
-    top: 55px;
+    left: 805px;
+    top: 56px;
     font-size: 28px;
 }
