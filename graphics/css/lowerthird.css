@@ -47,6 +47,16 @@
     font-size: 34px;
 }
 
+.matchUP{
+    position: absolute;
+    right:35px;
+    top: 976px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F5E5C1;
+    text-align: right;
+    font-size: 52px;
+}
+
 /*CASTER AND PRODUCER BOX RULES*/
 .casterName1{
     position: absolute;
@@ -84,3 +94,4 @@
     color: red;
     text-align: center;
 }
+
