@@ -1,9 +1,9 @@
 
 //Declares the different variables used in the Lower Third Overlay
 
-const castingOrgRep = nodecg.Replicant('castingOrg', {defaultValue: ""});
-const eInfoRep = nodecg.Replicant('eInfo', {defaultValue: ""});
-const seriesInfoRep = nodecg.Replicant('seriesInfo', {defaultValue: ""});
+const castingOrgRep = nodecg.Replicant('castingOrg', {defaultValue: "Fireside Casts"});
+const eInfoRep = nodecg.Replicant('eInfo', {defaultValue: "Event Info"});
+const seriesInfoRep = nodecg.Replicant('seriesInfo', {defaultValue: "Series Info:"});
 
 //Casters and producer
 const caster1InfoRep = nodecg.Replicant('caster1info', {defaultValue: ""});
