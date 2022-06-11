@@ -1,13 +1,13 @@
 .l3-base{
     margin: 0px;
     position: absolute;
-    background-color: rgba(62, 62, 62, 0.6);
+    background-color: rgba(62, 62, 62, 0.9);
     color: white;
     top: 858px;
     left: 30px;
     height: 184px;
     font-size: 56px;
-    width: 1860px;
+    width: 1440px;
 }
 
 .l3-color-1{
@@ -33,23 +33,22 @@
     top: 868px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 43px;
-    color: #FF0000;
+    color: #F4722B;
 }
 
 .mapsListClass{
     position: absolute;
-    right:35px;
+    right:455px;
     top: 868px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #FFFF00;
-    background-color: black;
+    color: #F4722B;
     text-align: right;
     font-size: 34px;
 }
 
 .matchUP{
     position: absolute;
-    right:35px;
+    right:455px;
     top: 976px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #F5E5C1;
@@ -60,38 +59,41 @@
 /*CASTER AND PRODUCER BOX RULES*/
 .casterName1{
     position: absolute;
-    top: 826px;
-    left: 1496px;
-    font-size: 18px;
+    top: 801px;
+    left: 30px;
+    font-size: 42px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #3E3E3E;
-    width: 128px;
-    height: 25px;
-    color: red;
+    width: 300px;
+    height: 50px;
+    color: #F4722B;
     text-align: center;
+    opacity: 0.0;
 }
 .casterName2{
     position: absolute;
-    top: 826px;
-    left: 1629px;
-    font-size: 18px;
+    top: 801px;
+    left: 340px;
+    font-size: 42px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #3E3E3E;
-    width: 128px;
-    height: 25px;
-    color: red;
+    width: 300px;
+    height: 50px;
+    color: #F4722B;
     text-align: center;
+    opacity: 0.0;
 }
 .producerName{
     position: absolute;
-    top: 826px;
-    left: 1762px;
-    font-size: 18px;
+    top: 801px;
+    left: 650px;
+    font-size: 42px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #3E3E3E;
-    width: 128px;
-    height: 25px;
-    color: red;
+    width: 300px;
+    height: 50px;
+    color: #F4722B;
     text-align: center;
+    opacity: 0.0;
 }
 

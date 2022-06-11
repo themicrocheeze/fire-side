@@ -24,18 +24,9 @@
       {
         "name": "fire-side",
         "title": "Fire Side",
-        "width": 4,
         "file": "fire-side.html",
-        "workspace": "Fire Side Casts",
-        "headerColor": "#525F78"
-      },
-      {
-        "name": "score-boardDash",
-        "title": "Score Board",
-        "width": 4,
-        "file": "score-boardDash.html",
-        "workspace": "Fire Side Casts",
-        "headerColor": "#525F78"
+        "headerColor": "#F4722B",
+        "fullbleed": "true"
       }
     ],
     "graphics": [
@@ -43,13 +34,7 @@
         "file": "masterOverlay.html",
         "width": 1920,
         "height": 1080
-      },
-      {
-        "file": "scoreBoard.html",
-        "width": 1920,
-        "height": 1080
       }
-
     ]
   },
   "repository": "https://github.com/nodecg/nodecg.git",
