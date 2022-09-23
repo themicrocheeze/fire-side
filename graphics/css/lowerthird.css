@@ -3,13 +3,21 @@
     position: absolute;
     background-color: rgba(62, 62, 62, 0.9);
     color: white;
-    top: 858px;
-    left: 30px;
-    height: 184px;
-    font-size: 56px;
-    width: 1440px;
+    top: 850px;
+    left: 360px;
+    height: 230px;
+    font-size: 156px;
+    width: 1560px;
 }
-
+.CorgLogo{
+    width: 117px;
+    height: 117px;
+    opacity: 1;
+    position: absolute;
+    z-index: 10;
+    left: 256px;
+    top: 0px;
+}
 .l3-color-1{
     color: #EC6F2B;
 }
@@ -23,77 +31,128 @@
     position: absolute;
     font-size: 52px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    top: 976px;
-    left: 43px;
+    top:128px;
+    left: 32px;
+    text-align: center;
+    z-index: 8;
+    color: white;
 }
 
 .orgName{
     position: absolute;
-    left: 43px;
-    top: 868px;
+    left:32px;
+    top: 32px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 43px;
-    color: #F4722B;
+    color: #FFFFFF;
+    z-index: 9;
+    text-align: center;
+    border-bottom: solid;
+    
 }
 
 .mapsListClass{
     position: absolute;
-    right:455px;
-    top: 868px;
+    top: 360px;
+    left: 32px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #F4722B;
-    text-align: right;
-    font-size: 34px;
+    text-align: left;
+    font-size: 32px;
+    z-index: 9;
 }
 
 .matchUP{
     position: absolute;
-    right:455px;
-    top: 976px;
+    top: 200px;
+    left: 32px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #F5E5C1;
-    text-align: right;
-    font-size: 52px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    z-index: 8;
 }
 
 /*CASTER AND PRODUCER BOX RULES*/
 .casterName1{
     position: absolute;
-    top: 801px;
-    left: 30px;
+    top: 1030px;
+    left: 360px;
     font-size: 42px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #3E3E3E;
-    width: 300px;
+    width: 360px;
     height: 50px;
     color: #F4722B;
     text-align: center;
-    opacity: 0.0;
+    z-index: 8;
+    background-color: rgba(62, 62, 62, 0);
+    opacity: 0;
 }
 .casterName2{
     position: absolute;
-    top: 801px;
-    left: 340px;
+    top: 1030px;
+    left: 720px;
     font-size: 42px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #3E3E3E;
-    width: 300px;
+    width: 360px;
     height: 50px;
     color: #F4722B;
     text-align: center;
-    opacity: 0.0;
+    z-index: 8;
+    background-color: rgba(62, 62, 62, 0);
+    opacity: 0;
 }
 .producerName{
     position: absolute;
-    top: 801px;
-    left: 650px;
+    top: 1030px;
+    left: 1080px;
     font-size: 42px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #3E3E3E;
-    width: 300px;
+    width: 360px;
     height: 50px;
     color: #F4722B;
     text-align: center;
-    opacity: 0.0;
+    z-index: 8;
+    background-color: rgba(62, 62, 62, 0);
+    opacity: 0;
+}
+
+.lbean{
+    position: absolute;
+    width: 540px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-color: #3E3E3E;
+    opacity: 0.9;
+    z-index: 3;
+}
+
+
+/*CASTER PROFILE PICTURES*/
+
+.pfp1{
+    width: 360px;
+    height: 222px;
+    bottom: 0px;
+    left: 360px;
+    z-index: 7;
+    position: absolute;
+}
+.pfp2{
+    width: 360px;
+    height: 222px;
+    bottom: 0px;
+    left: 720px;
+    z-index: 7;
+    position: absolute;
+}
+.pfp3{
+    width: 360px;
+    height: 222px;
+    bottom: 0px;
+    left: 1080px;
+    z-index: 7;
+    position: absolute;
 }
 
